@@ -1,41 +1,41 @@
-# Banking Analysis
+# Analisi Bancaria
 
-## Introduction
+## Introduzione
 
-Welcome to the Banking Analysis project! This repository contains an SQL script designed to extract and calculate various features related to bank customers. These features are crucial for data analysis and can be used as input for machine learning models to predict behaviors or classify customers based on specific metrics.
+Benvenuto nel progetto di Analisi Bancaria! Questo repository contiene uno script SQL progettato per estrarre e calcolare varie caratteristiche relative ai clienti bancari. Queste caratteristiche sono cruciali per l'analisi dei dati e possono essere utilizzate come input per modelli di machine learning per prevedere comportamenti o classificare i clienti in base a specifici metriche.
 
-## Objective
+## Obiettivo
 
-The primary objective of this script is to generate a series of temporary tables that aggregate and calculate detailed information about bank accounts, transactions, and types of accounts and transactions for each customer. The resulting final table contains all the calculated features and can be used for further analysis or as input for machine learning models.
+L'obiettivo principale di questo script è generare una serie di tabelle temporanee che aggregano e calcolano informazioni dettagliate sui conti bancari, sulle transazioni e sui tipi di conti e transazioni per ciascun cliente. La tabella finale risultante contiene tutte le caratteristiche calcolate e può essere utilizzata per ulteriori analisi o come input per modelli di machine learning.
 
-## Script Description
+## Descrizione dello Script
 
-The SQL script performs the following steps:
+Lo script SQL esegue i seguenti passaggi:
 
-1. **Count the total number of accounts per customer**:
-    - Creates a temporary table that contains the total number of accounts owned by each customer.
+1. **Contare il numero totale di conti per cliente**:
+    - Crea una tabella temporanea che contiene il numero totale di conti posseduti da ciascun cliente.
 
-2. **Calculate the number of incoming and outgoing transactions per customer**:
-    - Creates a temporary table with the number of incoming and outgoing transactions for each customer.
+2. **Calcolare il numero di transazioni in entrata e in uscita per cliente**:
+    - Crea una tabella temporanea con il numero di transazioni in entrata e in uscita per ciascun cliente.
 
-3. **Calculate the total amount of incoming and outgoing transactions per customer**:
-    - Creates a temporary table with the total amount of incoming and outgoing transactions for each customer.
+3. **Calcolare l'importo totale delle transazioni in entrata e in uscita per cliente**:
+    - Crea una tabella temporanea con l'importo totale delle transazioni in entrata e in uscita per ciascun cliente.
 
-4. **Count the number of accounts per type**:
-    - Creates a temporary table that contains the number of accounts for each account type for each customer.
+4. **Contare il numero di conti per tipo**:
+    - Crea una tabella temporanea che contiene il numero di conti per ciascun tipo di conto per ciascun cliente.
 
-5. **Count the number of transactions per type**:
-    - Creates a temporary table with the number of transactions for each transaction type for each customer.
+5. **Contare il numero di transazioni per tipo**:
+    - Crea una tabella temporanea con il numero di transazioni per ciascun tipo di transazione per ciascun cliente.
 
-6. **Calculate the transacted amount for incoming and outgoing transactions per account type**:
-    - Creates a temporary table with the total amount of incoming and outgoing transactions for each account type for each customer.
+6. **Calcolare l'importo delle transazioni in entrata e in uscita per tipo di conto**:
+    - Crea una tabella temporanea con l'importo totale delle transazioni in entrata e in uscita per ciascun tipo di conto per ciascun cliente.
 
-7. **Create the final table with all features per customer**:
-    - Creates a final temporary table containing all the calculated features for each customer.
+7. **Creare la tabella finale con tutte le caratteristiche per cliente**:
+    - Crea una tabella temporanea finale contenente tutte le caratteristiche calcolate per ciascun cliente.
 
-## Usage
+## Utilizzo
 
-To run the script, you need access to an SQL database with the following tables:
+Per eseguire lo script, è necessario avere accesso a un database SQL con le seguenti tabelle:
 
 - `banca.cliente`
 - `banca.conto`
@@ -43,14 +43,16 @@ To run the script, you need access to an SQL database with the following tables:
 - `banca.tipo_transazione`
 - `banca.tipo_conto`
 
-The script creates a series of temporary tables that aggregate and calculate the necessary features, and finally produces a `cliente_features` table containing all the calculated features.
+Lo script crea una serie di tabelle temporanee che aggregano e calcolano le caratteristiche necessarie e infine produce una tabella `cliente_features` contenente tutte le caratteristiche calcolate.
 
-### Execution Example
+### Esempio di Esecuzione
 
-To execute the script, use an SQL client compatible with your database (e.g., MySQL Workbench, DBeaver, etc.) and copy/paste the script content into the client. After execution, the temporary table `cliente_features` will be available for further analysis.
+Per eseguire lo script, utilizzare un client SQL compatibile con il vostro database (ad esempio, MySQL Workbench, DBeaver, ecc.) e copiare/incollare il contenuto dello script nel client. Dopo l'esecuzione, la tabella temporanea `cliente_features` sarà disponibile per ulteriori analisi.
 
-## Conclusion
+## Conclusione
 
-This SQL script is a powerful tool for banking data analysis, designed to extract and calculate relevant features for each customer. These features can be used for data analysis and are particularly useful as input for machine learning models to predict behaviors or classify customers based on specific metrics.
+Questo script SQL è uno strumento potente per l'analisi dei dati bancari, progettato per estrarre e calcolare caratteristiche rilevanti per ciascun cliente. Queste caratteristiche possono essere utilizzate per l'analisi dei dati e sono particolarmente utili come input per modelli di machine learning per prevedere comportamenti o classificare i clienti in base a specifici metriche.
 
-For any questions or contributions, feel free to contact the development team or create an issue on GitHub. Happy data analysis!
+Per qualsiasi domanda o contributo, sentiti libero di contattare il team di sviluppo o creare un problema su GitHub. Buona analisi dei dati!
+
+ Generato da ProfAI - https://prof.profession.ai/
