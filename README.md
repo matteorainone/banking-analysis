@@ -43,7 +43,7 @@ Per eseguire lo script, è necessario avere accesso a un database SQL con le seg
 - `banca.tipo_transazione`
 - `banca.tipo_conto`
 
-Nel reporsitory è presente lo script 'db_bancario.sql' che consente di creare un database 'banca' con le caratteristiche richieste.
+Nel reporsitory è presente lo script `db_bancario.sql` che consente di creare un database `banca` con le caratteristiche richieste.
 
 Lo script crea una serie di tabelle temporanee che aggregano e calcolano le caratteristiche necessarie e infine produce una tabella `cliente_features` contenente tutte le caratteristiche calcolate.
 
@@ -56,5 +56,3 @@ Per eseguire lo script, utilizzare un client SQL compatibile con il vostro datab
 Questo script SQL è uno strumento potente per l'analisi dei dati bancari, progettato per estrarre e calcolare caratteristiche rilevanti per ciascun cliente. Queste caratteristiche possono essere utilizzate per l'analisi dei dati e sono particolarmente utili come input per modelli di machine learning per prevedere comportamenti o classificare i clienti in base a specifici metriche.
 
 Per qualsiasi domanda o contributo, sentiti libero di contattare il team di sviluppo o creare un problema su GitHub. Buona analisi dei dati!
-
- Generato da ProfAI - https://prof.profession.ai/
