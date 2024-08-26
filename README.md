@@ -55,4 +55,4 @@ Per eseguire lo script, utilizzare un client SQL compatibile con il vostro datab
 
 Questo script SQL è uno strumento potente per l'analisi dei dati bancari, progettato per estrarre e calcolare caratteristiche rilevanti per ciascun cliente. Queste caratteristiche possono essere utilizzate per l'analisi dei dati e sono particolarmente utili come input per modelli di machine learning per prevedere comportamenti o classificare i clienti in base a specifici metriche.
 
-Per qualsiasi domanda o contributo, sentiti libero di contattare il team di sviluppo o creare un problema su GitHub. Buona analisi dei dati!
+Per qualsiasi domanda o contributo, sentiti libero di contattare il team di sviluppo o creare un issue su GitHub. Buona analisi dei dati!
