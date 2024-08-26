@@ -43,6 +43,8 @@ Per eseguire lo script, è necessario avere accesso a un database SQL con le seg
 - `banca.tipo_transazione`
 - `banca.tipo_conto`
 
+Nel reporsitory è presente lo script 'db_bancario.sql' che consente di creare un database 'banca' con le caratteristiche richieste.
+
 Lo script crea una serie di tabelle temporanee che aggregano e calcolano le caratteristiche necessarie e infine produce una tabella `cliente_features` contenente tutte le caratteristiche calcolate.
 
 ### Esempio di Esecuzione
